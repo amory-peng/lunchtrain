@@ -6,7 +6,7 @@ const client = new Discord.Client();
 let train = null;
 
 client.on('ready', () => {
-  console.log('I am ready!');
+  console.log(`Bot started at: ${new Date().toString()}`);
 });
 
 client.on('message', (message) => {
