@@ -1,6 +1,6 @@
-const Discord = require('discord.js');
-const auth = require('./auth.json');
-const LunchTrain = require('./lib/lunch_train').default;
+import Discord from 'discord.js';
+import auth from './auth.json';
+import LunchTrain from './lib/lunch_train';
 
 const client = new Discord.Client();
 const trains = {};
